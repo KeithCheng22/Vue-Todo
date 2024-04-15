@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+input[type="checkbox"] {
+    appearance: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+    border-width: 0.15rem;
+}
+
+input[type="checkbox"]::before {
+content: "";
+width: 0.8rem;
+height: 0.8rem;
+clip-path: circle();
+transform: scale(0);
+}
+
+input[type="checkbox"]:checked::before {
+transform: scale(0.8);
+}
+
+  
