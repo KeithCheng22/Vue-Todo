@@ -8,12 +8,12 @@
             <h3 class="mt-4">Pick a category</h3>
             <section class="flex justify-between mt-3 gap-3">
 
-                <div class="flex flex-col bg-white w-[50%] p-5 gap-1 rounded-md shadow-sm">
+                <div class="flex flex-col bg-white w-[50%] p-5 gap-1 rounded-md shadow-sm items-center">
                     <input class='accent-blue-900' id='business' type="radio" name="category" v-model="category" value="business"/>
                     <label class="text-center" for="business">Business</label>
                 </div>
 
-                <div class="flex flex-col w-[50%] bg-white p-5 gap-1 rounded-md shadow-sm">
+                <div class="flex flex-col w-[50%] bg-white p-5 gap-1 rounded-md shadow-sm items-center">
                     <input class='accent-pink-900' id='personal' type="radio" name="category" v-model="category" value="personal"/>
                     <label class="text-center" for="personal">Personal</label>
                 </div>
